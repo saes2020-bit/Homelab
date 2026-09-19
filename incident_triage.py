@@ -1,1 +1,6 @@
-Create incident triage project
+incident_title = input("What is the incident title ")
+TR_Level = input("what is the TR level of the service ")
+Users_affected = int(input("How many users are affected "))
+Outage = input("are the users experiencing a full outage? ")
+Production_affected = input("is production affected? ")
+print("incident_title, TR_Level, Users_affected, Outage, Production_affected ")
